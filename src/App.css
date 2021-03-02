@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  border-radius: 5px;
+  border-width: 1px;
+  margin:2vh 0;
+  width: 90%;
+  height: 5vh;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom,black,#1e1e1e);
+}
+button{
+  outline: none;
+}
+
+.homePage{
+  background: rgb(233, 230, 233);
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.homePageInner{
+  display: flex;
+  height: 90vh;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer{
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  box-shadow: 200px 300px 300px lightgray;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.welcomeText{
+  position: absolute;
+  padding:0px 15px;
+  outline: black;
+  font-size: 2.3rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px gray;
+}
+.startButton{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(to right,rgba(87, 85, 85, 0.473),#53525280);
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  width: 300px;
+  border:0.5px solid gray;
+  height: 7vh;
+  border-radius: 20px;
+  outline: none;
+}
+@media (max-width:733px){
+  .welcomeText{
+    font-size: 1.5rem;
+  }
+}
