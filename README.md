@@ -1,3 +1,4 @@
+This app is made with React,Redux,Socket.io,framer motion etc
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
